@@ -22,7 +22,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_MainWindow_t {
     QByteArrayData data[5];
-    char stringdata0[86];
+    char stringdata0[89];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -35,12 +35,12 @@ QT_MOC_LITERAL(0, 0, 10), // "MainWindow"
 QT_MOC_LITERAL(1, 11, 23), // "on_actionQuit_triggered"
 QT_MOC_LITERAL(2, 35, 0), // ""
 QT_MOC_LITERAL(3, 36, 27), // "on_actionNew_game_triggered"
-QT_MOC_LITERAL(4, 64, 21) // "on_pushButton_clicked"
+QT_MOC_LITERAL(4, 64, 24) // "on_pushButton_01_clicked"
 
     },
     "MainWindow\0on_actionQuit_triggered\0\0"
     "on_actionNew_game_triggered\0"
-    "on_pushButton_clicked"
+    "on_pushButton_01_clicked"
 };
 #undef QT_MOC_LITERAL
 
@@ -78,7 +78,7 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         switch (_id) {
         case 0: _t->on_actionQuit_triggered(); break;
         case 1: _t->on_actionNew_game_triggered(); break;
-        case 2: _t->on_pushButton_clicked(); break;
+        case 2: _t->on_pushButton_01_clicked(); break;
         default: ;
         }
     }

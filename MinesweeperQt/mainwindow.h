@@ -20,7 +20,7 @@ private slots:
 
     void on_actionNew_game_triggered();
 
-    void on_pushButton_clicked();
+    void on_pushButton_01_clicked();
 
 private:
     Ui::MainWindow *ui;
